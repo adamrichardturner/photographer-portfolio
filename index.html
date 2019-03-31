@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+        <!-- Font Awesome (For Social Media Buttons) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- My CSS -->
+        <link rel="stylesheet" href="./css/stylesheet.css" type="text/css" rel="stylesheet">
+        <title>Winona Webb | Photographer and Digital Designer</title>
+    </head>
+    <body>
+      <!-- Navbar Header  -->
+    <nav class="navbar navbar-dark bg-navyblue navbar-expand-lg">
+      <nav class="container navbar navbar-dark bg-navyblue navbar-expand-lg">
+        <a class="navbar-brand" href="#">Webb Photography</a>
+          <a href="#" class="scrollable">
+          </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav flexnav ml-auto">
+                  <li class="navbar-item">
+                      <a href="#" class="nav-link"></a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#main" class="nav-link">ABOUT</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#contact" class="nav-link">CONTACT</a>
+                  </li>
+              </ul>
+          </div>
+        </nav>
+      </nav>
+      <!-- End of Header  -->
+
+      <!-- Begin Main Section  -->
+      <div class="main" id="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+              <p class="intro"><span class="name">Winona Webb</span><br>
+
+                Freelance Photographer and Digital Artist,
+                with practical experience
+           in Photography and Image Editing, Branding, and Creative Input, clear
+           imagery with crisp overtones.
+              </p>
+              <hr>
+              <p class="sub-intro">Photographer | Digital Designer | Artist</p>
+            </div>
+            <div class="col-sm-4">
+              <img src="https://adamrichardturner.github.io/projects/winona-webb-portfolio/images/profile.jpeg"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Main Section -->
+
+      <!-- Begin Portfolio -->
+      <div class="portfolio" id="portfolio">
+        <h1>PORTFOLIO</h1>
+        <p>I love taking photos of beautiful backdrops and nature at large.
+           I use a wide variety of digital design tools to alter and touch up
+           photographs, so my clients are always happy with a polished end product.
+        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="#" class="pop">
+              <img id="hair" src="https://adamrichardturner.github.io/projects/winona-webb-portfolio/images/1.jpeg" alt="Shimmering red"/>
+            </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="#" class="pop">
+              <img id="coffee" class="pop" src="https://adamrichardturner.github.io/projects/winona-webb-portfolio/images/2.jpeg" alt="Dark black coffee"/>
+            </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="#" class="pop">
+              <img id="silo" class="pop" src="https://adamrichardturner.github.io/projects/winona-webb-portfolio/images/3.jpeg" alt="Silo of Green"/>
+            </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="#" class="pop">
+              <img id="cup" class="pop" src="https://adamrichardturner.github.io/projects/winona-webb-portfolio/images/4.jpeg" alt="My working space"/>
+            </a>
+            </div>
+          </div>
+      </div>
+
+      <!-- Modal Image Popup  -->
+      <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <img src="" class="imagepreview" style="width: 100%" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Portfolio Section -->
+
+      <!-- Contact Form -->
+
+      <div class="contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h1>CONTACT</h1>
+              <p>Please feel free to contact me using the form here. I will
+                respond within a reasonable amount of time.</p>
+                <div id="social_media">
+                  <span><a href="#" class="fa fa-facebook"></a></span>
+                  <span><a href="#" class="fa fa-twitter"></a></span>
+                  <span><a href="#" class="fa fa-linkedin"></a></span>
+                </div>
+            </div>
+            <div class="col-sm-6">
+              <form id="form">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="comment">Message:</label>
+                  <textarea name="comment" type="text" class="form-control"  id="comment">
+                  </textarea>
+                <button class="btn btn-primary" id="submit-btn" type="submit">Submit</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- End Contact Section -->
+
+        <footer>
+          <div class="above-footer">
+          </div>
+        </footer>
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+      <script type="text/javascript" src="./js/script.js"></script>
